@@ -33,5 +33,13 @@ public class Main {
                         Subtraction sub = new Subtraction(s1, s2);
                         System.out.println("Result: " + sub.sub());
                         break;
-
+                    case 3:
+                        System.out.println("Multiplication");
+                        System.out.print("Enter first number: ");
+                        double m1 = sc.nextDouble();
+                        System.out.print("Enter second number: ");
+                        double m2 = sc.nextDouble();
+                        Multiplication mul = new Multiplication(m1, m2);
+                        System.out.println("Result: " + mul.multiply());
+                        break;
 
