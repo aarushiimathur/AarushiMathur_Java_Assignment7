@@ -6,5 +6,8 @@ public class Subtraction {
         this.b = b;
     }
 
-    
+    public double sub() {
+        return a - b;
+    }
+}
 
