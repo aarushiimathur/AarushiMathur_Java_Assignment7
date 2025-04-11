@@ -58,3 +58,13 @@ public class Main {
                         Square square = new Square(sq);
                         System.out.println("Result: " + square.square());
                         break;
+                    case 6:
+                        System.out.println("Square Root");
+                        System.out.print("Enter number: ");
+                        double sr = sc.nextDouble();
+                        if (sr < 0) {
+                            throw new InputMismatchException("Cannot calculate square root of negative number.");
+                        }
+                        SquareRoot sqrt = new SquareRoot(sr);
+                        System.out.println("Result: " + sqrt.squareRoot());
+                        break;
