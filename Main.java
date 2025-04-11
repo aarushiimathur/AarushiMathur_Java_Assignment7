@@ -51,3 +51,10 @@ public class Main {
                         Division div = new Division(d1, d2);
                         System.out.println("Result: " + div.divide());
                         break;
+                    case 5:
+                        System.out.println("Square");
+                        System.out.print("Enter number: ");
+                        double sq = sc.nextDouble();
+                        Square square = new Square(sq);
+                        System.out.println("Result: " + square.square());
+                        break;
