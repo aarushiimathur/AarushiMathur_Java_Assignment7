@@ -1,4 +1,4 @@
-# Java Calculator Console Application
+# Java Calculator
 
 ## **Description**
 
