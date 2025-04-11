@@ -24,3 +24,14 @@ public class Main {
                         Addition add = new Addition(a1, a2);
                         System.out.println("Result: " + add.add());
                         break;
+                    case 2:
+                        System.out.println("Subtraction");
+                        System.out.print("Enter first number: ");
+                        double s1 = sc.nextDouble();
+                        System.out.print("Enter second number: ");
+                        double s2 = sc.nextDouble();
+                        Subtraction sub = new Subtraction(s1, s2);
+                        System.out.println("Result: " + sub.sub());
+                        break;
+
+
