@@ -68,3 +68,20 @@ public class Main {
                         SquareRoot sqrt = new SquareRoot(sr);
                         System.out.println("Result: " + sqrt.squareRoot());
                         break;
+                    case 7:
+                        System.out.println("Cube");
+                        System.out.print("Enter number: ");
+                        double c = sc.nextDouble();
+                        Cube cube = new Cube(c);
+                        System.out.println("Result: " + cube.cube());
+                        break;
+
+                    default:
+                        System.out.println("Invalid choice. Try again.");
+                }
+            } catch (ArithmeticException e) {
+                System.out.println("Arithmetic Error: " + e.getMessage());
+            }
+        }
+    }
+}
