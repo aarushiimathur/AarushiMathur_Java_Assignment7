@@ -42,4 +42,12 @@ public class Main {
                         Multiplication mul = new Multiplication(m1, m2);
                         System.out.println("Result: " + mul.multiply());
                         break;
-
+                    case 4:
+                        System.out.println("Division");
+                        System.out.print("Enter numerator: ");
+                        double d1 = sc.nextDouble();
+                        System.out.print("Enter denominator: ");
+                        double d2 = sc.nextDouble();
+                        Division div = new Division(d1, d2);
+                        System.out.println("Result: " + div.divide());
+                        break;
