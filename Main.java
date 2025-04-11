@@ -13,3 +13,14 @@ public class Main {
                 System.out.println("Exit.");
                 break;
             }
+            try {
+                switch (choice) {
+                    case 1:
+                        System.out.println("Addition");
+                        System.out.print("Enter first number: ");
+                        double a1 = sc.nextDouble();
+                        System.out.print("Enter second number: ");
+                        double a2 = sc.nextDouble();
+                        Addition add = new Addition(a1, a2);
+                        System.out.println("Result: " + add.add());
+                        break;
